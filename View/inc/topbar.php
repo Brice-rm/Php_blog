@@ -14,7 +14,7 @@
 					<li class="<?php echo ($_GET['a']=="chapters")?"active" : ""; ?>"><a href="<?=ROOT_URL?>blog_chapters.html">Posts</a></li>
 
 					<?php if (empty($_SESSION['is_admin']) && empty($_SESSION['is_user'])): ?>
-					<li><a href="<?=ROOT_URL?>blog_login.html" class="btn yellow lighten-1 black-text waves-effect waves-light">Connexion<i class="material-icons right">lock_open</i></a></li>
+					<li><a href="<?=ROOT_URL?>blog_login.html" class="btn yellow accent-2  black-text waves-effect waves-light">Connexion<i class="material-icons right">lock_open</i></a></li>
 					<?php endif ?>
 
 					<?php if (!empty($_SESSION['is_admin'])): ?>
