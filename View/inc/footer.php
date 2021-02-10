@@ -1,7 +1,7 @@
 
 
 
-<footer class="page-footer blue-grey lighten-1 center">
+<footer class="page-footer grey darken-3 center">
   <div class="footer-copyright">
     <div class="container">
       <div class="footer-column ">
