@@ -14,6 +14,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta charset="utf-8" />
   <title><?= \BlogPhp\Engine\Config::SITE_NAME ?></title>
+  <link rel="shortcut icon" href="./static/img/logo.png" type="image/x-icon">
   <meta name="author" content="Romain Ollier" />
 
 </head>
